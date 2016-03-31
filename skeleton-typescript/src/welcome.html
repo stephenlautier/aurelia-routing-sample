@@ -1,7 +1,11 @@
 <template>
   <section class="au-animate">
     <h2>${heading}</h2>
-	<a route-href="route: admin-layout">Go to Admin</a>
+	<ul>
+		<li><a route-href="route: admin-layout">Go to Admin</a></li>
+		<li><a route-href="route: welcome">Go to Welcome</a></li>
+	</ul>
+	
     <form role="form" submit.delegate="submit()">
       <div class="form-group">
         <label for="fn">First Name</label>

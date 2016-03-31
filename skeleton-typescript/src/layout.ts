@@ -19,7 +19,7 @@ export class LanguageLayout {
 	private configure(config: RouterConfiguration) {
 		config.map([
 			{
-				route: ["", "welcome"],
+				route: "",
 				name: "welcome",
 				title: "welcome",
 				moduleId: `welcome`,
